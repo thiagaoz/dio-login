@@ -1,38 +1,138 @@
-.App {
-  text-align: center;
+/*
+amarelo 
+verde  
+rosa #E3115D
+roxo 
+*/
+html{
+  background-color: #1F1A2C;
+  overflow: hidden;
+  color: white;
+}
+input{
+  background-color: transparent;
+  width: 300px;
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: #3B3450;
+  font-size: 20px;
+  font-weight: 10;
+  margin-top: 20px;
+  color: white;
+}
+input:focus::placeholder {
+  color: transparent;
+}
+h3{
+  font-size: 35px;
+}
+button{
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: lighter;
+  margin: 5px;
+  letter-spacing: 1px;
+  padding: 0px 15px 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button:hover{
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header{
+  background-color: black;
+  height: 60px;
+  display: block;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.logo-dio{
+  position: relative;
+  top: 30%;
+  left: 20px;
+}
+.logo-dio:hover{
+  cursor: pointer;
+}
+
+.header-btns{
+  position: relative;
+  left: 75%;
+  top: -15px;
+}
+
+.transparent-btn{
+  background-color: transparent;
+  border: none;
+}
+
+.grey-btn{
+  background-color: gray;
+  border: none;
+}
+
+.text{
+  font-size: 30px;
+  width: 580px;
+  margin-left: 80px;
+  margin-top: 150px;
+}
+
+.login-box{
+  position: absolute;
+  top: 140px;
+  right: 200px;
+}
+
+.text-regular{
+  font-size: 20px;
+  font-weight: 350;
+}
+.sub-text{
+  margin-top: -30px;
+}
+::placeholder{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.primary-button-container {
+  position: relative;
+  display: block;
+  border-radius: 30px;
+  left: 5px;
+  width: 300px;
+  margin-top: 20px;
+  padding: 3px;
+  border: 1px solid #E3115D;
+  
+}
+.pink-btn{
+  background-color: #E3115D;
+  border: none;
+  width: 290px;
+  height: 30px;
+  border-radius: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mini-btn{
+  margin-top: 50px;
+
+
+}
+
+.esqueci-btn{
+  font-size: 15px;
+  font-weight: bold;
+  color: #DDD843 ;
+  margin-left: -5px;
+}
+
+.criar-btn{
+  font-size: 15px;
+  font-weight: bold;
+  color: #21AF67;
+}
+.icon{
+  color:#592496;
+  font-size: 20px;
 }
